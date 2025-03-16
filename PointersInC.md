@@ -8,12 +8,18 @@ For instance, when we write int dayOfTheWeek = 1; in a program:
 3.	This memory space is identified by its unique address, just like a PO Box number.
 In essence, a memory space is allocated for each variable, which holds the value of that variable, and this memory space can be accessed using its unique address—just like retrieving mail from a specific PO Box.
 In computer the memory address is denoted in hexadecimal format, like 0x88ffed45ab33
-Let’s look into this C program. 
- 
+
+Let’s look into this C program.
+
+<img src="Images/Picture1.png"/>
+
 The result is:
- 
+
+<img src="Images/Picture2.png"/>
 
 Let’s get the pictorial representation:
+
+<img src="Images/Picture3.png"/>
  
 Let’s look into Pointers:
 In C, a pointer is a variable that stores the memory address of another variable. Let try to understand this through the below example. 
@@ -21,12 +27,16 @@ Int *p = NULL;  // This is how we declare a pointer of type int. If we are not i
 As p can store/hold address, we can assign p as
 p = &dayOfTheWeek; // This mean address of the variable “dayOfTheWeek” is now stored in p.  
 Let’s get the pictorial representation
+
+<img src="Images/Picture4.png"/>
  
 Let’s look into the below program: 
  
+<img src="Images/Picture5.png"/>
 
 The result is: 
  
+<img src="Images/Picture6.png"/>
 
 Hope you understood the basic of Pointers in “C”
 
