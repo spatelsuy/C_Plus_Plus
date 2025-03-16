@@ -1,41 +1,35 @@
 # Pointers in C Programming Language
 
 Before diving into Pointers in “C”, let understand this 
-In a computer, memory is uniquely identified by an address, much like a PO Box in a post office or an apartment mailbox. Just as each PO Box has a unique number that helps you locate and retrieve your mail, each memory location in a computer has a unique address that helps the processor locate and access stored data.
+In a computer, **memory is uniquely identified by an address,** much like a PO Box in a post office or an apartment mailbox. Just as each PO Box has a unique number that helps you locate and retrieve your mail, each memory location in a computer has a unique address that helps the processor locate and access stored data.
 For instance, when we write int dayOfTheWeek = 1; in a program:
-1.	The computer allocates a specific memory space for the variable dayOfTheWeek.
+1.	The computer **allocates a specific memory space** for the variable dayOfTheWeek.
 2.	It stores the value 1 in that allocated memory space.
-3.	This memory space is identified by its unique address, just like a PO Box number.
-In essence, a memory space is allocated for each variable, which holds the value of that variable, and this memory space can be accessed using its unique address—just like retrieving mail from a specific PO Box.
+3.	This memory space is identified by its **unique address**, just like a PO Box number.
+In essence, **a memory space is allocated for each variable**, which holds the value of that variable, and this memory space can be accessed using its unique address—just like retrieving mail from a specific PO Box.
 In computer the memory address is denoted in hexadecimal format, like 0x88ffed45ab33
 
-Let’s look into this C program.
-
+Let’s look into this C program.  
 <img src="Images/Picture1.png"/>
 
-The result is:
-
+The result is:  
 <img src="Images/Picture2.png"/>
 
-Let’s get the pictorial representation:
-
+Let’s get the pictorial representation:  
 <img src="Images/Picture3.png"/>
  
-Let’s look into Pointers:
-In C, a pointer is a variable that stores the memory address of another variable. Let try to understand this through the below example. 
+**Let’s look into Pointers:**  
+In C, a pointer is a **variable that stores the memory address of another variable.** Let try to understand this through the below example. 
 Int *p = NULL;  // This is how we declare a pointer of type int. If we are not initializing any value, the best practice is to assign NULL. It indicates that the pointer does not point to any valid memory address.
 As p can store/hold address, we can assign p as
 p = &dayOfTheWeek; // This mean address of the variable “dayOfTheWeek” is now stored in p.  
-Let’s get the pictorial representation
-
+Let’s get the pictorial representation  
 <img src="Images/Picture4.png"/>
  
-Let’s look into the below program: 
- 
+Let’s look into the below program:  
 <img src="Images/Picture5.png"/>
 
-The result is: 
- 
+The result is:  
 <img src="Images/Picture6.png"/>
 
 Hope you understood the basic of Pointers in “C”
@@ -68,14 +62,6 @@ int main()
 	return 0; 
 }
 
-
-
-
-
-
-
-
-
 Let’s look into another program
 #include <stdio.h> 
 int main() 
@@ -106,9 +92,8 @@ In int datatype we can do mathematical operations +, -, /, x.
 Can we do the same in int pointers (int*)?
 
 
-Let’s explore character pointers by building on the concepts we learned about integer pointers.
-
-Declaration of a Character Pointer:
+**Let’s explore character pointers by building on the concepts we learned about integer pointers.**    
+**Declaration of a Character Pointer:**  
 A character pointer is declared as: char* cp;
 
 If we are not assigning any value to it during declaration, it is a good practice to initialize it to NULL to avoid undefined behavior. This would look like: char* cp = NULL;
@@ -118,7 +103,7 @@ If we have a value to assign, the assignment should be as follows:
 char c = 'A';
 char* cp = &c; // '&c' is used because pointers store/hold the memory address of a variable.
 
-Incorrect Assignment:
+**Incorrect Assignment:**  
 If you assign a value directly without referencing a variable, as shown below:
 char c = 'A';
 char* cp = c;
