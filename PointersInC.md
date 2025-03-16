@@ -1,4 +1,4 @@
-<b>Pointers in C Programming Language<b>
+# Pointers in C Programming Language
 
 Before diving into Pointers in “C”, let understand this 
 In a computer, memory is uniquely identified by an address, much like a PO Box in a post office or an apartment mailbox. Just as each PO Box has a unique number that helps you locate and retrieve your mail, each memory location in a computer has a unique address that helps the processor locate and access stored data.
