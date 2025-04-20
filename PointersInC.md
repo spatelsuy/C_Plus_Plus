@@ -35,23 +35,23 @@ The result is:
 Hope you understood the basic of Pointers in “C”
 
 Let's look into another program to understand pointers better.  
+```
 #include <stdio.h>  
 int main()  
 {  
-	int dayOfTheWeek = 1; 
-    	int* p = NULL; 
-    	*p = 5;	// this line you give you an error, why?
-
-    	int num = 6;
-    	*p = num; // this line you give you an error, why?
-    	p = &num;
-    	*p = dayOfTheWeek;
-    	printf("%d", *p);
-	*p = 7;
-	printf("%d", *p); // what it will print ?
-	printf("%d", dayOfTheWeek); // what it will print ?
-	printf("%d", *num);	// what it will print ?
-	printf("%d",  num);		// what it will print ?
+	int dayOfTheWeek = 1;  
+    	int* p = NULL;  
+    	*p = 5;	// this line you give you an error, why? 
+    	int num = 6;  
+    	*p = num; // this line you give you an error, why?  
+    	p = &num;  
+    	*p = dayOfTheWeek;  
+    	printf("%d", *p);  
+	*p = 7;  
+	printf("%d", *p); // what it will print ?  
+	printf("%d", dayOfTheWeek); // what it will print ?  
+	printf("%d", *num);	// what it will print ?  
+	printf("%d",  num);		// what it will print ?  
 
 
 	int* pNum = 4; // this line you give you an error, why?
@@ -61,12 +61,14 @@ int main()
 
 	return 0; 
 }
+```
 
-Let’s look into another program
+Let’s look into another program  
+```
 #include <stdio.h> 
 int main() 
 { 
-int num = 10;
+	int num = 10;
     	printf("1 %d\n", num);
     
     	int* pNum = num; //is it allowed?
@@ -87,7 +89,7 @@ int num = 10;
     	*pNum = &num; //is it allowed?
     	printf("7 %d\n", d);
 }
-
+```
 In int datatype we can do mathematical operations +, -, /, x.
 Can we do the same in int pointers (int*)?
 
