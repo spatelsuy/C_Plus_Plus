@@ -34,10 +34,10 @@ The result is:
 
 Hope you understood the basic of Pointers in “C”
 
-Let's look into another program to understand pointers better.
-#include <stdio.h> 
-int main() 
-{ 
+Let's look into another program to understand pointers better.  
+#include <stdio.h>  
+int main()  
+{  
 	int dayOfTheWeek = 1; 
     	int* p = NULL; 
     	*p = 5;	// this line you give you an error, why?
