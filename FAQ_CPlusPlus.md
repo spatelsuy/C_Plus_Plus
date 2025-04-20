@@ -117,13 +117,34 @@ can I do pointer arithmetic (+, -, *, /) ?
 Can I do reference arithmetic ?  
 
 ## ✅ 7. Type Casting & Conversion
-What are different types of type cast operators?  
-What is static and dynamic casting?  
+What are the different types of type casting operators in C++?  
+(static_cast, dynamic_cast, const_cast, reinterpret_cast)  
+How is C++ type casting different from C-style casting?  
 What is ad-hoc/static polymorphism?  
 Can you convert a built-in type to class type?  
 Can you convert a class type to built-in type?  
 Is it always possible to convert base class pointer to derived class pointer and vice versa?  
-For virtual base class, reinterpret_cast is needed?  
+For virtual base class, is reinterpret_cast needed?  
+What is the purpose of static_cast and when should it be used?  
+Explain dynamic_cast. What are its prerequisites and typical use cases?  
+What is reinterpret_cast and why should it be used with caution?  
+What does const_cast do, and when might you need it?  
+What is ad-hoc polymorphism, and how does it relate to type conversion?  
+What is static polymorphism vs dynamic polymorphism in the context of casting?  
+Can you convert a built-in type to a class type? How is it achieved in C++?  
+How can you convert a class type to a built-in type? What mechanisms are involved?  
+What are conversion constructors and conversion operators?  
+What is the role of explicit keyword in type conversion?  
+Is implicit conversion always safe? When can it cause problems?  
+Can overloaded operators affect type conversions? How?  
+Is it always valid to cast a base class pointer to a derived class pointer? What are the risks?  
+How does dynamic_cast help in safe downcasting? What happens if the cast fails?  
+In the context of virtual inheritance, when and why might reinterpret_cast be used?  
+Can we cast between unrelated class types? What are the dangers?  
+What’s the difference between object slicing and object casting?  
+How does casting interact with polymorphism and virtual functions?  
+What are some real-life examples or scenarios where casting is essential (e.g., device drivers, serialization, game engines)?  
+Is type casting a sign of poor design? When should it be avoided?  
 
 
 ## ✅ 8. Language Features & Comparisons
