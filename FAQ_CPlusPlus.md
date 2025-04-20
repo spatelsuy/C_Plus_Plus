@@ -91,6 +91,7 @@ What is public, protected, and private inheritance?
 Is it possible to make a publicly inherited function private in derived class?  
 Is it possible to make a protectedly inherited function private in derived class?  
 Is it possible to make a privately inherited function public in derived class?  
+Is it possible to mske a protectly inherited function public in derived class?  
 Can you inherit constructors?  
 Is it possible to initialize a base class pointer to a derived class pointer and vice versa?  
 ## ✅ 6. Memory Management & Pointers
@@ -107,6 +108,12 @@ Can reference variable be declared without initialization?
 What is reference variable?  
 Can a reference to a null pointer be made?  
 What is functor?  
+what is the difference between pointer and reference?  
+can a pointer be converted to reference similarly a reference to pointer?  
+can a pointer be pass by reference and reference by pointer?  
+can I do pointer arithmetic (+, -, *, /) ?  
+Can I do reference arithmetic ?  
+
 ## ✅ 7. Type Casting & Conversion
 What are different types of type cast operators?  
 What is static and dynamic casting?  
