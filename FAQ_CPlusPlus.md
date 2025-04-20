@@ -94,6 +94,8 @@ Is it possible to make a privately inherited function public in derived class?
 Is it possible to mske a protectly inherited function public in derived class?  
 Can you inherit constructors?  
 Is it possible to initialize a base class pointer to a derived class pointer and vice versa?  
+
+
 ## ✅ 6. Memory Management & Pointers
 What is stack and what is heap?  
 What is virtual memory?  
@@ -122,11 +124,9 @@ Can you convert a built-in type to class type?
 Can you convert a class type to built-in type?  
 Is it always possible to convert base class pointer to derived class pointer and vice versa?  
 For virtual base class, reinterpret_cast is needed?  
-## ✅ 8. Templates and Generic Programming
-What is template?  
-What is template class?  
-What is template function?  
-## ✅ 9. Language Features & Comparisons
+
+
+## ✅ 8. Language Features & Comparisons
 Difference between C++ and C?  
 What is the calling convention of C++ class member function?  
 How many calling conventions are used in C and C++?  
@@ -144,7 +144,9 @@ What is namespace?
 What is directive?  
 What is trigraph?  
 What is aggregate?  
-## ✅ 10. Miscellaneous / Special Topics
+
+
+## ✅ 9. Miscellaneous / Special Topics
 What is run-time type information (RTTI)? How is it achieved in C++?  
 Is it possible: int x = f1(x); or f(int x, int y = x);?  
 Can you take bit value in struct/class/union?  
