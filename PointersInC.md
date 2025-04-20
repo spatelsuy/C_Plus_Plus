@@ -35,7 +35,7 @@ The result is:
 Hope you understood the basic of Pointers in “C”
 
 Let's look into another program to understand pointers better.  
-```
+```C
 #include <stdio.h>  
 int main()  
 {  
@@ -64,7 +64,7 @@ int main()
 ```
 
 Let’s look into another program  
-```
+```C
 #include <stdio.h> 
 int main() 
 { 
@@ -98,18 +98,15 @@ Can we do the same in int pointers (int*)?
 **Declaration of a Character Pointer:**  
 A character pointer is declared as: char* cp;
 
-If we are not assigning any value to it during declaration, it is a good practice to initialize it to NULL to avoid undefined behavior. This would look like: char* cp = NULL;
+If we are not assigning any value to it during declaration, it is a good practice to initialize it to NULL to avoid undefined behavior. This would look like: char* cp = NULL;  
 
-Assigning a Value to a Character Pointer:
-If we have a value to assign, the assignment should be as follows:
-char c = 'A';
-char* cp = &c; // '&c' is used because pointers store/hold the memory address of a variable.
+**Assigning a Value to a Character Pointer:**  
+If we have a value to assign, the assignment should be as follows:  
+char c = 'A';  
+char* cp = &c; // '&c' is used because pointers store/hold the memory address of a variable.  
 
 **Incorrect Assignment:**  
-If you assign a value directly without referencing a variable, as shown below:
-char c = 'A';
-char* cp = c;
-This assignment will compile, but it results in unexpected behavior. Here, the character 'A' is implicitly converted to its ASCII value (65), which is treated as a memory address. Since 65 is not a valid memory address, this leads to undefined behavior, potentially causing your program to crash or produce unpredictable results.
-
-
-  
+If you assign a value directly without referencing a variable, as shown below:  
+char c = 'A';  
+char* cp = c;  
+This assignment will compile, but it results in unexpected behavior. Here, the character 'A' is implicitly converted to its ASCII value (65), which is treated as a memory address. Since 65 is not a valid memory address, this leads to undefined behavior, potentially causing your program to crash or produce unpredictable results.  
